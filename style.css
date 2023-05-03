@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.user-container{
+display: flex;
+align-items: center;
+gap: 2rem;
+position: absolute;
+right: 1rem;
+top: 0.6rem;
+}
+.userImg{
+    border-radius: 50%;
+    width: 36px;
+}
+.heroSection{
+    width: 100%;
+    height: 350px;
+    background-color: #7550fe;
+}
