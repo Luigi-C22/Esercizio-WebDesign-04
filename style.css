@@ -1,8 +1,8 @@
-*{
+/*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
+}*/
 .user-container{
 display: flex;
 align-items: center;
@@ -16,12 +16,56 @@ top: 0.6rem;
     width: 36px;
 }
 .heroSection{
+    flex-wrap: wrap;
     width: 100%;
     background-color: #7550fe;
     
 }
-.imgHero{
-    flex-wrap: wrap;
-    width: auto;
+.main1{
+    background-color: #7550fe;
+    width: 100%;
+}
+
+#hero{
+    width: 100%;
+}
+.btn-green {
+    background-color: #1aca97;
+    color: white;
+}
+.small-btn {
+    font-size: 0.8rem;
+    padding: 10px 20px;
+}
+.icon-banner {
+    width: 35px;
+    height: 35px;
+    background-color: #ffeeda;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-banner span {
+    font-size: 1em;
+    color: #98570c;
+}
+.text-banner {
+    font-size: 0.8em;
+}
+.timeIcon{
     
+    height: 17px;
+}
+.icon-success{
+    color: #785329;
+}
+#avatar{
+    width: 35px;
+    border-radius: 50%;
+    color: grey;
+    gap: 10px;
+}
+p{
+    overflow: hidden;
 }
