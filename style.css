@@ -77,6 +77,9 @@ p{
     text-overflow: ellipsis;
     overflow: hidden;
 }
+.colorOrange{
+    color: rgb(255, 170, 70)
+}
 
 .copy, .links a {
     font-size: 1rem;
