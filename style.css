@@ -61,11 +61,29 @@ top: 0.6rem;
     color: #785329;
 }
 #avatar{
-    width: 35px;
+    width: 30px;
     border-radius: 50%;
-    color: grey;
-    gap: 10px;
+    margin-right: 8px;
+}
+
+.card-text{
+    cursor: pointer;
+    font-weight: 600;
+}
+.card-text:hover{
+        color: #7550fe;
 }
 p{
+    text-overflow: ellipsis;
     overflow: hidden;
+}
+
+.copy, .links a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: gray;
+    gap: 1rem;
+}
+.links{
+    gap: 10px;
 }
